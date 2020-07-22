@@ -6,3 +6,8 @@ class Dog
     return @dogName
   end
 end
+
+lassie = Dog.new
+lassie.name = "Lassie"
+
+puts lassie.name
